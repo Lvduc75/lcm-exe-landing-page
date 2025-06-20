@@ -198,8 +198,10 @@
  
 .template-button {
   color: white;
+  width: 80%;
   cursor: pointer;
   display: flex;
+  min-height: 78px;
   transition: 0.3s;
   align-items: center;
   padding-top: var(--dl-layout-space-unit);
@@ -209,6 +211,7 @@
   padding-right: var(--dl-layout-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-layout-space-unit);
+  justify-content: center;
   background-color: #000000;
 }
  
@@ -216,8 +219,6 @@
   color: black;
   background-color: #ffffff;
 }
- 
-
  
 .accordionIcon {
   width: 30px;
